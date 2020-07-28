@@ -174,8 +174,8 @@ template{
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -281,7 +281,7 @@ a:active {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
-  margin: var(--ection-tagline-margin);
+  margin: var(--section-tagline-margin);
 }
 
 ul.row {
@@ -319,7 +319,7 @@ ul.row {
 }
 
 .row::after {
-  content: normal;
+  content: "";
   display: table;
   clear: both;
 }
