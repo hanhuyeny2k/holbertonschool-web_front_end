@@ -266,11 +266,11 @@ a:active {
 
 .section-footer {
   padding: var(--section-footer-padding);
-  text-align: var(--section-header-align);
+  text-align: var(--section-footer-align);
 }
 .section-title {
   font-family: var(--font-family-title);
-  font-size: var(font-size-xx-large);
+  font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
   color: var(--section-title-color);
@@ -286,7 +286,7 @@ a:active {
 
 ul.row {
   margin: 0;
-  padding: none;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -303,7 +303,7 @@ ul.row {
 }
 
 .footer-copyright {
-  margin: none;
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
