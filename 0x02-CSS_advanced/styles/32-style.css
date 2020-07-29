@@ -174,12 +174,12 @@ template{
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
   --button-border: 0.2rem solid var(--color-primary);
-  --button-color: color-black;
+  --button-color: var(--color-black);
   --button-text-decoration: none;
-  --button-font-size: font-size-large;
-  --button-hover-color: color-white;
+  --button-font-size: var(--font-size-large);
+  --button-hover-color: var(--color-white);
   --button-hover-text-decoration: none;
-  --button-hover-background: color-primary;
+  --button-hover-background: var(--color-primary);
   --header-padding: 4rem 0 0;
   --header-logo-position: relative;
   --header-logo-link-display: inline-block;
@@ -389,7 +389,7 @@ a:active {
   text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -470,7 +470,7 @@ a:active {
 
 ul.row {
   margin: 0;
-  padding: none;
+  padding: 0;
   list-style: none;
 }
 
@@ -488,7 +488,7 @@ ul.row {
 }
 
 .footer-copyright {
-  margin: none;
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
