@@ -1,0 +1,13 @@
+/* margin mixin */
+@mixin margin-l-r($var) {
+    margin-left: $var;
+    margin-right: $var;
+}
+
+body {
+  @include margin-l-r(10px);
+}
+
+div {
+  @include margin-l-r(15px);
+}
