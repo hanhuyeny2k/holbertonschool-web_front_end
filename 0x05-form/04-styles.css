@@ -684,7 +684,7 @@
   }
 
   input[type='text'],
-  input[type='email']
+  input[type='email'],
   textarea {
     position: relative;
     width: 100%;
